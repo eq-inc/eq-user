@@ -1,0 +1,14 @@
+{
+  "name": "eq-user",
+  "version": "0.0.1",
+  "description": "User module for Eq applications",
+  "author": "Kazuma Fujimaki <fujimaki@eq-inc.jp>",
+  "dependencies": {
+    "karmia-database": ">=0.0.3",
+    "neo-async": ">=1.7.2"
+  },
+  "devDependencies": {
+    "mocha": ">=2.3.3",
+    "expect.js": ">=0.3.1"
+  }
+}
