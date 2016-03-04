@@ -36,7 +36,7 @@ before(function (done) {
 
         // Setup database
         function (done) {
-            user.configure(db);
+            user.setup(db);
             db.setup(done);
         }
     ], done);
@@ -88,7 +88,7 @@ describe('eq-user', function () {
                     done(null, result.user_id, user_context);
                 });
             },
-            
+
             // Expect result
             function (user_id, user_context, done) {
                 expect(user_context.user_id).to.be(user_id);
