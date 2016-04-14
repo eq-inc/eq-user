@@ -1,6 +1,6 @@
 {
     "name": "eq-user",
-    "version": "0.2.1",
+    "version": "0.2.3",
     "dependencies": {
         "lodash": ">=4.9.0",
         "neo-async": ">=1.8.0"
@@ -8,6 +8,6 @@
     "devDependencies": {
         "mocha": ">=2.4.5",
         "expect.js": ">= 0.3.1",
-        "karmia-database": ">=0.5.0"
+        "karmia-database": ">=0.6.6"
     }
 }

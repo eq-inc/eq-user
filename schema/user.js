@@ -6,23 +6,26 @@
 
 // Export module
 module.exports = {
+    type: 'object',
     key: ['user_id'],
     properties: {
         user_id: {
-            type: 'varchar',
+            type: 'string',
             required: true,
             unique: true
         },
         name: {
-            type: 'varchar',
+            type: 'string',
             default: ''
         },
         public_key: {
-            type: 'varchar',
+            type: 'string',
             default: ''
         },
         now: {
-            type: 'datetime'
+            type: 'string',
+            format: 'date',
+            default: ''
         }
     }
 };
