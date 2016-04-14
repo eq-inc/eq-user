@@ -24,7 +24,7 @@ module.exports = {
         },
         now: {
             type: 'string',
-            format: 'date',
+            pattern: '^(\d{4}-\d{2}-\d{2})?$',
             default: ''
         }
     }
