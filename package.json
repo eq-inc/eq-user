@@ -1,6 +1,6 @@
 {
     "name": "eq-user",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "User module for Eq applications",
     "homepage": "https://github.com/eq-inc/eq-user",
     "license": "Apache-2.0",
