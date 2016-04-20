@@ -1,13 +1,25 @@
 {
     "name": "eq-user",
-    "version": "0.2.4",
+    "version": "0.2.5",
+    "description": "User module for Eq applications",
+    "homepage": "https://github.com/eq-inc/eq-user",
+    "license": "Apache-2.0",
+    "author": "Kazuma Fujimaki <fujimaki@eq-inc.jp>",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eq-inc/eq-user.git"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha ./test"
+    },
     "dependencies": {
-        "lodash": ">=4.9.0",
-        "neo-async": ">=1.8.0"
+        "lodash": ">=4.11.1",
+        "neo-async": ">=1.8.1"
     },
     "devDependencies": {
         "mocha": ">=2.4.5",
         "expect.js": ">= 0.3.1",
-        "karmia-database": ">=0.6.6"
+        "karmia-database": ">=0.7.0"
     }
 }
