@@ -68,9 +68,6 @@ describe('eq-user', function () {
     });
 
     it('Should create user context', function (done) {
-        let user_id;
-        const table = db.table('user');
-
         async.waterfall([
             // Create user
             function (done) {
@@ -91,7 +88,12 @@ describe('eq-user', function () {
 
             // Expect result
             function (user_id, user_context, done) {
+
+                console.log(user_context);
+
                 expect(user_context.user_id).to.be(user_id);
+                expect(user_context).to.have.property('name');
+                expect(user_context).to.have.property('public_key');
                 expect(user_context).to.have.property('session');
                 expect(user_context).to.have.property('now');
 
